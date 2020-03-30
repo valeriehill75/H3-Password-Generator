@@ -1,9 +1,9 @@
 // Assignment Code
-///var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
 event.preventDefault ()
 
 // Add event listener to generate button
-///generateBtn.addEventListener("click", writePassword)
+generateBtn.addEventListener("click", writePassword)
 
 function submitButton () {
 //designate number of characters, and special character parameters
@@ -30,9 +30,9 @@ function submitButton () {
 //    for (var i = 0, i <= passLength; i++)
 //      password = password + values.charAt(Math.floor(Math.random() * Math.floor(value.length -1)));
 //  }
-//  var passwordText = document.querySelector("#password");
+  var passwordText = document.querySelector("#password");
 
-//  passwordText.value = password;
+  passwordText.value = password;
 
 }
 

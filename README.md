@@ -1,41 +1,8 @@
-# H3-Password-Generator
+password-generator
 
-# 03 JavaScript: Password Generator
+Try the random password generator at:
+[password-generator](https://valeriehill75.github.io/password-generator/)
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-    
-    *****I had functioning prompts in my code at one point - alerts that asked the parameters and 
-    then stated to enter the correct information if incorrect info was provided.******
+This app uses Javascript to store passwords in an array. A pop-up prompt asks the user how many characters they want in the password, as well as if they would like to include numbers, lower case letters, and upper case letters. The user then clicks the submit button to generate a random password.
 
-
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-
-    ******I wasn't able to get any of this part to work.******
-
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-The following image demonstrates the application functionality:
-
-![password generator demo](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+![screenshot](./assets/passwordGenerator.png)

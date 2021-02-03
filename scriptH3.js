@@ -61,6 +61,8 @@ function getPasswordOptions() {
   return passOptions;
 }
 
+
+
 //Get random element from array
 function getRandom(arr) {
   var randomLength = Math.floor(Math.random() * arr.length);
